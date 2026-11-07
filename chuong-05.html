@@ -455,6 +455,31 @@ line.s-teal,path.s-teal{stroke:var(--teal)}line.s-gold,path.s-gold{stroke:var(--
 .still .bubA2,.still .bubB2,.still .topLbl{opacity:1!important;transform:none!important}
 .still .noiseIn,.still .toLoss,.still .lossC{opacity:0!important}.still .toHome{stroke-dashoffset:0}
 .still .roomIn,.still .homeOn,.still .sharpen{opacity:1;filter:none}.still .mag{transform:translate(320px,116px)!important}
+
+/* ===== chương 7 ===== */
+.flyp2{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:flyp2 2.8s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes flyp2{0%{opacity:0;transform:translate(180px,40px)}20%{opacity:1}80%{opacity:1;transform:translate(390px,80px)}100%{opacity:0;transform:translate(400px,90px)}}
+.lieDown{animation:lieD 7s ease-in-out infinite}@keyframes lieD{0%,60%{opacity:1}70%,92%{opacity:.25}100%{opacity:1}}
+.ghostUp{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:ghostUp 7s ease-in-out infinite}
+@keyframes ghostUp{0%,8%{opacity:0;transform:translate(70px,100px)}18%{opacity:.6;transform:translate(70px,90px)}50%{opacity:.6;transform:translate(220px,92px)}60%,100%{opacity:0;transform:translate(260px,92px)}}
+.realUp{opacity:0;animation:realUp 7s ease-in-out infinite}@keyframes realUp{0%,58%{opacity:0;transform:translateY(10px)}68%,92%{opacity:1;transform:none}100%{opacity:0}}
+.fallC{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:fallC 2.6s ease-in infinite;animation-delay:var(--d)}
+@keyframes fallC{0%{opacity:0;transform:translate(var(--x),-10px)}15%{opacity:1}100%{opacity:0;transform:translate(var(--x),150px)}}
+.seaRise{fill:var(--gold);transform-box:fill-box;transform-origin:50% 100%!important;animation:seaRise 6s ease-in-out infinite}
+@keyframes seaRise{0%{transform:scaleY(.15);opacity:.6}60%,90%{transform:scaleY(1);opacity:.95}100%{transform:scaleY(.15);opacity:.6}}
+.tideW{fill:var(--teal);opacity:.35;transform-box:fill-box;transform-origin:50% 100%!important;animation:tideW 6s ease-in-out infinite}
+@keyframes tideW{0%,10%{transform:scaleY(.15)}55%,88%{transform:scaleY(1)}100%{transform:scaleY(.15)}}
+.boatUp{animation:boatUp 6s ease-in-out infinite}
+@keyframes boatUp{0%,10%{transform:translateY(40px) rotate(-14deg)}55%{transform:translateY(-10px) rotate(0)}70%{transform:translateY(-6px) rotate(3deg)}88%{transform:translateY(-10px)}100%{transform:translateY(40px) rotate(-14deg)}}
+.coinMove{transform-box:view-box!important;transform-origin:0 0!important;animation:coinMove 7s ease-in-out infinite}
+@keyframes coinMove{0%,8%{transform:translate(100px,60px)}40%,100%{transform:translate(310px,70px)}}
+.wart{fill:#8a5a3c;animation:wart 8s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes wart{0%,10%{opacity:1}40%{opacity:.45}75%,92%{opacity:0}100%{opacity:1}}
+.timeBar{stroke-dasharray:320;stroke-dashoffset:320;animation:timeBar 8s linear infinite}
+@keyframes timeBar{0%{stroke-dashoffset:320}75%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:320}}
+.shake{animation:shake .5s ease-in-out infinite}@keyframes shake{25%{transform:rotate(-4deg)}75%{transform:rotate(4deg)}}
+.still .flyp2,.still .ghostUp,.still .wart{opacity:0!important}.still .realUp{opacity:1!important;transform:none!important}
+.still .seaRise,.still .tideW{transform:none}.still .boatUp{transform:translateY(-10px)}.still .timeBar{stroke-dashoffset:0}.still .coinMove{transform:translate(310px,70px)!important}
 </style>
 </head>
 <body data-chapter="chuong-05">
