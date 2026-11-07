@@ -11,6 +11,7 @@ Trang đọc phong cách *The Power (Sức Mạnh)*: nền tối, hình động 
 ├── chuong-03.html          # Chương 3 · Quay Ngược Bánh Xe Thời Gian
 ├── chuong-04.html          # Chương 4 · Không Có Gì Là Hư Cấu
 ├── chuong-05.html          # Chương 5 · Những Sợi Dây Liên Kết Tinh Vi
+├── chuong-06.html          # Chương 6 · Trí Tưởng Tượng Mang Tính Khải Tượng
 ├── images/                 # Ảnh bìa từng chương: chuong-01.jpg, chuong-02.jpg, …
 ├── icons/                  # Icon app (192, 512, apple-touch, favicon)
 ├── manifest.webmanifest    # "Thêm vào Màn hình chính" như một app
