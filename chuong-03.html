@@ -401,6 +401,25 @@ line.s-teal,path.s-teal{stroke:var(--teal)}line.s-gold,path.s-gold{stroke:var(--
 .flyb{transform-box:view-box!important;transform-origin:0 0!important;animation:flyb 5s ease-in-out infinite}
 @keyframes flyb{0%,15%{transform:translate(152px,94px)}70%{transform:translate(330px,30px)}85%,100%{transform:translate(360px,20px);opacity:0}}
 .still .flyp,.still .flyb{opacity:0!important}.still .trace{stroke-dashoffset:0}.still .crop{opacity:1!important;transform:none!important}
+
+/* ===== chương 5 ===== */
+.cutT{animation:cutT 6s ease-in-out infinite}@keyframes cutT{0%,35%{opacity:1}45%,88%{opacity:0}100%{opacity:1}}
+.dropE{animation:dropE 6s ease-in-out infinite}
+@keyframes dropE{0%,40%{opacity:1;transform:none}55%,88%{opacity:0;transform:translateY(50px) rotate(25deg)}100%{opacity:1;transform:none}}
+.grow{transform-box:fill-box;transform-origin:50% 100%!important;transform:scaleY(0);animation:grow .9s ease-out forwards;animation-delay:var(--d)}
+@keyframes grow{to{transform:scaleY(1)}}
+.bar1{animation:bar1 6s ease-in-out infinite}.bar2{animation:bar2 6s ease-in-out infinite}
+@keyframes bar1{0%,8%{width:0}35%,90%{width:296px}100%{width:0}}
+@keyframes bar2{0%,30%{width:0}58%,90%{width:298px}100%{width:0}}
+.swapL,.swapR{transform-box:view-box!important;transform-origin:0 0!important}
+.swapL{animation:swapL 7s ease-in-out infinite}.swapR{animation:swapR 7s ease-in-out infinite}
+@keyframes swapL{0%,25%{transform:translate(110px,100px)}55%,90%{transform:translate(330px,100px)}100%{transform:translate(110px,100px)}}
+@keyframes swapR{0%,25%{transform:translate(330px,100px)}55%,90%{transform:translate(110px,100px)}100%{transform:translate(330px,100px)}}
+.still .grow{transform:none}.still .bar1{width:296px}.still .bar2{width:298px}
+.still .swapL{transform:translate(330px,100px)!important}.still .swapR{transform:translate(110px,100px)!important}
+.spiral2{stroke-dasharray:640;stroke-dashoffset:640;animation:spiral2 6s ease-in-out infinite}
+@keyframes spiral2{0%,8%{stroke-dashoffset:640}60%,88%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.still .spiral2{stroke-dashoffset:0}
 </style>
 </head>
 <body data-chapter="chuong-03">
