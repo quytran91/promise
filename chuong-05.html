@@ -549,6 +549,36 @@ path.s-green{stroke:var(--green)}
 .trace2{stroke-dasharray:200;stroke-dashoffset:200;animation:trace 5s ease-in-out infinite}
 .still .sphere{opacity:.22;transform:none}.still .sprout{opacity:1!important;transform:none!important}.still .enter9,.still .roller,.still .breeze,.still .moonArc{opacity:0!important}
 .still .stoneIn{transform:translate(200px,94px)!important}.still .brick{fill:var(--gold)}.still .timeBar2,.still .trace2{stroke-dashoffset:0}.still .train{transform:translate(160px,64px)!important}
+
+/* ===== chương 10 ===== */
+.pieceA,.pieceB,.pieceC,.pieceD{transform-box:view-box!important;transform-origin:0 0!important;animation-duration:6s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.pieceA{animation-name:pA}.pieceB{animation-name:pB}.pieceC{animation-name:pC}.pieceD{animation-name:pD}
+@keyframes pA{0%,10%{transform:translate(30px,20px);opacity:.4}45%,90%{transform:translate(154px,44px);opacity:1}100%{transform:translate(30px,20px);opacity:.4}}
+@keyframes pB{0%,10%{transform:translate(340px,10px) rotate(40deg);opacity:.4}45%,90%{transform:translate(210px,44px);opacity:1}100%{transform:translate(340px,10px);opacity:.4}}
+@keyframes pC{0%,10%{transform:translate(20px,140px) rotate(-30deg);opacity:.4}45%,90%{transform:translate(154px,100px);opacity:1}100%{transform:translate(20px,140px);opacity:.4}}
+@keyframes pD{0%,10%{transform:translate(360px,140px);opacity:.4}45%,90%{transform:translate(210px,100px);opacity:1}100%{transform:translate(360px,140px);opacity:.4}}
+.eventOn{opacity:0;animation:eventOn 6s ease-in-out infinite}@keyframes eventOn{0%,50%{opacity:0;transform:scale(.5)}60%,90%{opacity:1;transform:none}100%{opacity:0}}
+.drop{transform-box:view-box!important;transform-origin:0 0!important;animation:drop 6s ease-in infinite}
+@keyframes drop{0%{transform:translate(124px,60px);opacity:1}25%{transform:translate(138px,150px);opacity:1}30%,100%{transform:translate(138px,150px);opacity:0}}
+.growTree{transform-box:fill-box;transform-origin:50% 100%!important;animation:growT 6s ease-out infinite}
+@keyframes growT{0%,28%{transform:scale(0)}60%,92%{transform:scale(1)}100%{transform:scale(0)}}
+.kidGrow{transform-box:view-box!important;transform-origin:0 0!important;animation:kidGrow 8s ease-in-out infinite}
+@keyframes kidGrow{0%{transform:translate(80px,110px) scale(.6)}80%,92%{transform:translate(70px,92px) scale(1)}100%{transform:translate(80px,110px) scale(.6)}}
+.kidSay1{opacity:0;animation:ks1 8s ease-in-out infinite}.kidSay2{opacity:0;animation:ks2 8s ease-in-out infinite}
+@keyframes ks1{0%,12%{opacity:0}18%,40%{opacity:1}46%,100%{opacity:0}}
+@keyframes ks2{0%,50%{opacity:0}58%,92%{opacity:1}100%{opacity:0}}
+.heartUp{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:heartUp 2.4s ease-out infinite;animation-delay:var(--d)}
+@keyframes heartUp{0%{transform:translate(130px,110px);opacity:0}20%{opacity:1}100%{transform:translate(170px,20px);opacity:0}}
+.slideIn{transform-box:view-box!important;transform-origin:0 0!important;animation:slideIn 6s ease-in-out infinite}
+@keyframes slideIn{0%,20%{transform:translate(460px,30px);opacity:0}50%,88%{transform:translate(140px,30px);opacity:1}100%{transform:translate(460px,30px);opacity:0}}
+.stormOff{animation:mtA 7s ease-in-out infinite}.rainbowOn{opacity:0;animation:mtB 7s ease-in-out infinite}
+.carOut{transform-box:view-box!important;transform-origin:0 0!important;animation:carOut 7s ease-in infinite}
+@keyframes carOut{0%,15%{transform:translate(120px,122px);opacity:1}45%{transform:translate(-50px,122px);opacity:1}50%,100%{transform:translate(-50px,122px);opacity:0}}
+.walkP{transform-box:view-box!important;transform-origin:0 0!important;animation:walkP 5s ease-in-out infinite}
+@keyframes walkP{0%{transform:translate(256px,108px)}85%,100%{transform:translate(380px,64px)}}
+.still .pieceA{transform:translate(154px,44px)!important}.still .pieceB{transform:translate(210px,44px)!important}.still .pieceC{transform:translate(154px,100px)!important}.still .pieceD{transform:translate(210px,100px)!important}
+.still .eventOn,.still .kidSay2,.still .rainbowOn{opacity:1!important;transform:none!important}.still .growTree{transform:none}.still .slideIn{transform:translate(140px,30px)!important;opacity:1!important}
+.still .drop,.still .heartUp,.still .carOut,.still .kidSay1,.still .stormOff{opacity:0!important}.still .kidGrow{transform:translate(70px,92px)!important}
 </style>
 </head>
 <body data-chapter="chuong-05">
