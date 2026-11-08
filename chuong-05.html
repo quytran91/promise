@@ -522,6 +522,33 @@ line.s-teal,path.s-teal{stroke:var(--teal)}line.s-gold,path.s-gold{stroke:var(--
 .slideL3{animation:slL3 6s ease-in-out infinite}.slideR3{animation:slR3 6s ease-in-out infinite}
 @keyframes slL3{0%,15%{transform:translateX(-14px)}45%,70%{transform:translateX(26px)}90%,100%{transform:translateX(-14px)}}
 @keyframes slR3{0%,15%{transform:translateX(14px)}45%,70%{transform:translateX(-26px)}90%,100%{transform:translateX(14px)}}
+
+/* ===== chương 9 ===== */
+path.s-green{stroke:var(--green)}
+.dash2{stroke-dasharray:6 6;animation:dash 1.2s linear infinite}
+.sphere{fill:var(--gold);opacity:0;transform-box:fill-box;transform-origin:center!important;animation:sphere 7s ease-in-out infinite}
+@keyframes sphere{0%,30%{opacity:0;transform:scale(1.6)}55%,88%{opacity:.22;transform:scale(1)}100%{opacity:0;transform:scale(1.6)}}
+.enter9{transform-box:view-box!important;transform-origin:0 0!important;animation:enter9 7s ease-in-out infinite}
+@keyframes enter9{0%,10%{transform:translate(20px,120px);opacity:1}35%{transform:translate(198px,120px);opacity:1}45%,100%{transform:translate(198px,120px);opacity:0}}
+.sprout{opacity:0;animation:sprout 7s ease-in-out infinite}
+@keyframes sprout{0%,50%{opacity:0;transform:scale(.3) translateY(10px)}65%,88%{opacity:1;transform:scale(1.2)}100%{opacity:0}}
+.breeze{transform-box:view-box!important;transform-origin:0 0!important;animation:breeze 4s ease-in-out infinite}
+@keyframes breeze{0%{transform:translate(240px,120px);opacity:0}20%{opacity:1}100%{transform:translate(410px,60px) rotate(180deg);opacity:0}}
+.train{transform-box:view-box!important;transform-origin:0 0!important;animation:train 5s linear infinite}
+@keyframes train{0%{transform:translate(-140px,64px)}100%{transform:translate(460px,64px)}}
+.moonArc{transform-box:view-box!important;transform-origin:0 0!important;animation:moonArc 3.5s linear infinite}
+@keyframes moonArc{0%{transform:translate(20px,120px);opacity:0}15%{opacity:1}50%{transform:translate(60px,30px)}85%{opacity:1}100%{transform:translate(100px,120px);opacity:0}}
+.brick{fill:#5a5566;animation:brick 7s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes brick{0%,40%{fill:#5a5566}55%,88%{fill:var(--gold)}100%{fill:#5a5566}}
+.stoneIn{transform-box:view-box!important;transform-origin:0 0!important;animation:stoneIn 7s ease-in-out infinite}
+@keyframes stoneIn{0%,10%{transform:translate(50px,50px) rotate(0)}38%,90%{transform:translate(200px,94px) rotate(360deg)}100%{transform:translate(50px,50px)}}
+.roller{transform-box:view-box!important;transform-origin:0 0!important;animation:roller 7s ease-in-out infinite}
+@keyframes roller{0%{transform:translate(140px,60px);opacity:1}15%{transform:translate(260px,60px)}25%{transform:translate(140px,110px)}35%{transform:translate(260px,110px)}42%,100%{transform:translate(280px,120px);opacity:0}}
+.timeBar2{stroke-dasharray:380;stroke-dashoffset:380;animation:timeBar2 6s ease-in-out infinite}
+@keyframes timeBar2{0%{stroke-dashoffset:380}50%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:380}}
+.trace2{stroke-dasharray:200;stroke-dashoffset:200;animation:trace 5s ease-in-out infinite}
+.still .sphere{opacity:.22;transform:none}.still .sprout{opacity:1!important;transform:none!important}.still .enter9,.still .roller,.still .breeze,.still .moonArc{opacity:0!important}
+.still .stoneIn{transform:translate(200px,94px)!important}.still .brick{fill:var(--gold)}.still .timeBar2,.still .trace2{stroke-dashoffset:0}.still .train{transform:translate(160px,64px)!important}
 </style>
 </head>
 <body data-chapter="chuong-05">
