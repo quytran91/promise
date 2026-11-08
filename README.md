@@ -13,6 +13,7 @@ Trang đọc phong cách *The Power (Sức Mạnh)*: nền tối, hình động 
 ├── chuong-05.html          # Chương 5 · Những Sợi Dây Liên Kết Tinh Vi
 ├── chuong-06.html          # Chương 6 · Trí Tưởng Tượng Mang Tính Khải Tượng
 ├── chuong-07.html          # Chương 7 · Tâm Trạng
+├── chuong-08.html          # Chương 8 · Nhìn Xuyên Qua Tấm Kính
 ├── images/                 # Ảnh bìa từng chương: chuong-01.jpg, chuong-02.jpg, …
 ├── icons/                  # Icon app (192, 512, apple-touch, favicon)
 ├── manifest.webmanifest    # "Thêm vào Màn hình chính" như một app
