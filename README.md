@@ -16,6 +16,7 @@ Trang đọc phong cách *The Power (Sức Mạnh)*: nền tối, hình động 
 ├── chuong-08.html          # Chương 8 · Nhìn Xuyên Qua Tấm Kính
 ├── chuong-09.html          # Chương 9 · Hãy Bước Vào Bên Trong
 ├── chuong-10.html          # Chương 10 · Những Điều Không Hiện Ra
+├── chuong-11.html          # Chương 11 · Người Thợ Gốm
 ├── images/                 # Ảnh bìa từng chương: chuong-01.jpg, chuong-02.jpg, …
 ├── icons/                  # Icon app (192, 512, apple-touch, favicon)
 ├── manifest.webmanifest    # "Thêm vào Màn hình chính" như một app

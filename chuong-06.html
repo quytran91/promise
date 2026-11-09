@@ -579,6 +579,20 @@ path.s-green{stroke:var(--green)}
 .still .pieceA{transform:translate(154px,44px)!important}.still .pieceB{transform:translate(210px,44px)!important}.still .pieceC{transform:translate(154px,100px)!important}.still .pieceD{transform:translate(210px,100px)!important}
 .still .eventOn,.still .kidSay2,.still .rainbowOn{opacity:1!important;transform:none!important}.still .growTree{transform:none}.still .slideIn{transform:translate(140px,30px)!important;opacity:1!important}
 .still .drop,.still .heartUp,.still .carOut,.still .kidSay1,.still .stormOff{opacity:0!important}.still .kidGrow{transform:translate(70px,92px)!important}
+
+/* ===== chương 11 ===== */
+.spinPlate{transform-box:fill-box;transform-origin:center!important;animation:plate 2s linear infinite}
+@keyframes plate{to{transform:scaleX(-1)}}
+.lumpOld{animation:mtA 6s ease-in-out infinite}.vaseNew{opacity:0;animation:vaseNew 6s ease-in-out infinite}
+@keyframes vaseNew{0%,30%{opacity:0;transform:scale(.6) translateY(20px)}45%,88%{opacity:1;transform:none}100%{opacity:0}}
+.curtain{fill:#8e2236;transform-box:fill-box;transform-origin:50% 0!important;animation:curtain 6s ease-in-out infinite}
+@keyframes curtain{0%,15%{transform:scaleY(1)}35%,88%{transform:scaleY(0)}100%{transform:scaleY(1)}}
+.seatC{fill:var(--line)}
+.seatOn{fill:var(--gold);animation:seatOn 1.6s ease-in-out infinite}@keyframes seatOn{50%{filter:drop-shadow(0 0 6px rgba(230,189,79,.9))}}
+.clayCover{fill:#8a6a50;animation:clayCover 6s ease-in-out infinite}@keyframes clayCover{0%,20%{opacity:.85}60%,90%{opacity:0}100%{opacity:.85}}
+.kneadL{animation:kneadL 1.4s ease-in-out infinite}.kneadR{animation:kneadR 1.4s ease-in-out infinite}
+@keyframes kneadL{50%{transform:translate(10px,-6px) rotate(8deg)}}@keyframes kneadR{50%{transform:translate(-10px,-6px) rotate(-8deg)}}
+.still .vaseNew{opacity:1!important;transform:none!important}.still .lumpOld,.still .clayCover{opacity:0!important}.still .curtain{transform:scaleY(0)}
 </style>
 </head>
 <body data-chapter="chuong-06">
