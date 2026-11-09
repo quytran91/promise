@@ -613,6 +613,27 @@ path.s-green{stroke:var(--green)}
 .paint3{animation:kneadL 1.6s ease-in-out infinite}
 .still .painOn,.still .flameUp,.still .ringReal,.still .doorOn{opacity:1!important;transform:none!important}
 .still .painOff,.still .ringGhost,.still .wallGone,.still .closeEyes,.still .billMove{opacity:0!important}.still .coal{fill:#e8592c}
+
+/* ===== chương 13 ===== */
+.blurBlob{animation:blurBlob 6s ease-in-out infinite}@keyframes blurBlob{50%{transform:scale(1.08);filter:blur(3px)}}
+.drawLeaf{stroke-dasharray:420;stroke-dashoffset:420;animation:drawLeaf 6s ease-in-out infinite}
+@keyframes drawLeaf{0%,8%{stroke-dashoffset:420}55%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:420}}
+.hatFly{transform-box:view-box!important;transform-origin:0 0!important;animation:hatFly 7s ease-in-out infinite}
+@keyframes hatFly{0%,10%{transform:translate(80px,54px);opacity:0}20%{opacity:1}40%,60%{transform:translate(88px,96px);opacity:1}80%,100%{transform:translate(200px,96px);opacity:0}}
+.pigeons{transform-box:view-box!important;transform-origin:0 0!important;animation:pigeons 7s ease-in-out infinite}
+@keyframes pigeons{0%,20%{transform:translate(200px,116px)}50%,90%{transform:translate(40px,116px)}100%{transform:translate(200px,116px)}}
+.sparIn{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:sparIn 7s ease-in-out infinite}
+@keyframes sparIn{0%,45%{opacity:0;transform:translate(300px,30px)}60%,90%{opacity:1;transform:translate(260px,126px)}100%{opacity:0;transform:translate(260px,126px)}}
+.divider{opacity:0;animation:mtB 7s ease-in-out infinite}
+.glowR{animation:glowR 2s ease-in-out infinite}.glowG{animation:glowR 2s ease-in-out infinite .6s}@keyframes glowR{50%{filter:drop-shadow(0 0 8px currentColor);opacity:.6}}
+.ghostFrame,.ghostShip{animation:ghost 5s ease-in-out infinite}@keyframes ghost{0%,100%{opacity:.15}50%{opacity:.85}}
+.dance{animation:dance 1.2s ease-in-out infinite}@keyframes dance{25%{transform:rotate(-14deg) translateY(-4px)}75%{transform:rotate(14deg) translateY(-4px)}}
+.busIn{transform-box:view-box!important;transform-origin:0 0!important;animation:busIn 7s ease-out infinite}
+@keyframes busIn{0%,15%{transform:translate(460px,64px)}40%,100%{transform:translate(240px,64px)}}
+.floatIn{opacity:0;transform-box:view-box!important;transform-origin:0 0!important;animation:floatIn 4.2s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes floatIn{0%{opacity:0;transform:translate(250px,40px)}20%{opacity:1}80%{opacity:1;transform:translate(348px,110px)}100%{opacity:0;transform:translate(348px,110px)}}
+.still .drawLeaf{stroke-dashoffset:0}.still .sparIn,.still .divider{opacity:1!important;transform:translate(260px,126px)!important}.still .divider{transform:none!important}
+.still .pigeons{transform:translate(40px,116px)!important}.still .busIn{transform:translate(240px,64px)!important}.still .hatFly,.still .floatIn{opacity:0!important}
 </style>
 </head>
 <body data-chapter="chuong-04">
