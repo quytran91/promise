@@ -20,6 +20,7 @@ Trang đọc phong cách *The Power (Sức Mạnh)*: nền tối, hình động 
 ├── chuong-12.html          # Chương 12 · Thái Độ
 ├── chuong-13.html          # Chương 13 · Tất Cả Những Điều Nhỏ Nhặt
 ├── chuong-14.html          # Chương 14 · Khoảnh Khắc Sáng Tạo
+├── chuong-15.html          # Chương 15 · Lời Hứa: Bốn Trải Nghiệm Thần Bí
 ├── images/                 # Ảnh bìa từng chương: chuong-01.jpg, chuong-02.jpg, …
 ├── icons/                  # Icon app (192, 512, apple-touch, favicon)
 ├── manifest.webmanifest    # "Thêm vào Màn hình chính" như một app

@@ -657,6 +657,23 @@ path.s-green{stroke:var(--green)}
 .faceTurn{animation:faceTurn 6s ease-in-out infinite}@keyframes faceTurn{0%,25%{transform:scaleX(-1) rotate(-10deg)}40%,90%{transform:none;filter:drop-shadow(0 0 16px rgba(255,236,170,.9))}100%{transform:scaleX(-1)}}
 .still .spreadGold{transform:none}.still .pastIn,.still .busOut{opacity:0!important}.still .futIn{transform:translate(203px,70px)!important;opacity:1!important}
 .still .manWalk{transform:translate(140px,110px)!important}.still .stickDown{transform:translate(160px,134px) rotate(80deg)!important}.still .halo{opacity:.16}.still .bloomOn{opacity:1;filter:none}
+
+/* ===== chương 15 ===== */
+.orbit15{transform-box:view-box!important;transform-origin:220px 108px!important;animation:spin 8s linear infinite}
+.exitSelf{transform-box:view-box!important;transform-origin:0 0!important;animation:exitSelf 6s ease-in-out infinite}
+@keyframes exitSelf{0%,12%{transform:translate(32px,60px);opacity:0}25%{opacity:1}55%{transform:translate(110px,118px) rotate(160deg)}75%,92%{transform:translate(156px,144px) rotate(90deg);opacity:1}100%{opacity:0;transform:translate(156px,144px) rotate(90deg)}}
+.bro3{transform-box:view-box!important;transform-origin:0 0!important;animation:bro3 7s ease-in-out infinite}
+@keyframes bro3{0%,12%{transform:translate(180px,82px)}40%,92%{transform:translate(300px,140px)}100%{transform:translate(180px,82px)}}
+.boltDraw{stroke:var(--blue);stroke-dasharray:240;stroke-dashoffset:240;animation:boltDraw 6s ease-in infinite}
+@keyframes boltDraw{0%{stroke-dashoffset:240;opacity:1}14%,30%{stroke-dashoffset:0;opacity:1}40%,100%{stroke-dashoffset:0;opacity:0}}
+.serpRise{stroke:var(--gold);stroke-dasharray:320;stroke-dashoffset:320;filter:drop-shadow(0 0 6px rgba(230,189,79,.7));animation:serpRise 6s ease-in-out infinite}
+@keyframes serpRise{0%,30%{stroke-dashoffset:320}70%,92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.quake{animation:quake 6s linear infinite}
+@keyframes quake{0%,68%,86%,100%{transform:none}70%{transform:translate(-3px,1px) rotate(-4deg)}72%{transform:translate(3px,-1px) rotate(4deg)}74%{transform:translate(-3px,0) rotate(-3deg)}76%{transform:translate(3px,1px) rotate(3deg)}78%{transform:translate(-2px,0)}80%{transform:translate(2px,0)}}
+.flow360{stroke:var(--gold);stroke-dasharray:360;stroke-dashoffset:360;animation:flow360 6s ease-in-out infinite}
+@keyframes flow360{0%{stroke-dashoffset:360}60%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+.still .exitSelf{transform:translate(156px,144px) rotate(90deg)!important;opacity:1!important}.still .bro3{transform:translate(300px,140px)!important}
+.still .boltDraw{stroke-dashoffset:0;opacity:.5}.still .serpRise,.still .flow360{stroke-dashoffset:0}
 </style>
 </head>
 <body data-chapter="chuong-13">
