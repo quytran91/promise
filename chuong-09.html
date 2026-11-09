@@ -634,6 +634,29 @@ path.s-green{stroke:var(--green)}
 @keyframes floatIn{0%{opacity:0;transform:translate(250px,40px)}20%{opacity:1}80%{opacity:1;transform:translate(348px,110px)}100%{opacity:0;transform:translate(348px,110px)}}
 .still .drawLeaf{stroke-dashoffset:0}.still .sparIn,.still .divider{opacity:1!important;transform:translate(260px,126px)!important}.still .divider{transform:none!important}
 .still .pigeons{transform:translate(40px,116px)!important}.still .busIn{transform:translate(240px,64px)!important}.still .hatFly,.still .floatIn{opacity:0!important}
+
+/* ===== chương 14 ===== */
+.spreadGold{fill:var(--gold);transform-box:fill-box;transform-origin:center!important;animation:spreadGold 6s ease-in-out infinite}
+@keyframes spreadGold{0%,20%{transform:scaleX(0)}60%,90%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.bounce{animation:bounceB 1.6s ease-in-out infinite}@keyframes bounceB{0%{transform:translateX(30px)}50%{transform:translateX(-40px)}100%{transform:translateX(30px)}}
+.pastIn{transform-box:view-box!important;transform-origin:0 0!important;animation:pastIn 5s ease-in-out infinite}
+@keyframes pastIn{0%{transform:translate(64px,70px);opacity:.3}60%,100%{transform:translate(190px,70px);opacity:0}}
+.futIn{transform-box:view-box!important;transform-origin:0 0!important;animation:futIn 5s ease-in-out infinite 1s}
+@keyframes futIn{0%{transform:translate(344px,70px);opacity:0}15%{opacity:1}60%,90%{transform:translate(203px,70px);opacity:1}100%{opacity:0}}
+.busOut{transform-box:view-box!important;transform-origin:0 0!important;animation:busOut 6s ease-in infinite}
+@keyframes busOut{0%,20%{transform:translate(300px,84px)}70%,100%{transform:translate(460px,84px)}}
+.waveArm{animation:waveArm 6s ease-in-out infinite}@keyframes waveArm{0%,30%{transform:rotate(-6deg)}15%{transform:rotate(6deg)}50%,100%{transform:rotate(0);opacity:.75}}
+.knock{animation:knockK .6s ease-in-out infinite}@keyframes knockK{50%{transform:translateX(-5px) rotate(-10deg)}}
+.manWalk{transform-box:view-box!important;transform-origin:0 0!important;animation:manWalk 7s ease-in-out infinite}
+@keyframes manWalk{0%{transform:translate(380px,110px)}55%,100%{transform:translate(140px,110px)}}
+.stickDown{transform-box:view-box!important;transform-origin:0 0!important;animation:stickDown 7s ease-in-out infinite}
+@keyframes stickDown{0%{transform:translate(360px,80px) rotate(-40deg)}15%{transform:translate(330px,80px) rotate(30deg)}30%{transform:translate(300px,80px) rotate(-40deg)}45%,100%{transform:translate(160px,134px) rotate(80deg);opacity:.6}}
+.halo{fill:var(--gold);opacity:0;animation:halo 7s ease-in-out infinite}@keyframes halo{0%,30%{opacity:0}50%,90%{opacity:.16}100%{opacity:0}}
+.bloomOn{animation:bloomOn 7s ease-in-out infinite}@keyframes bloomOn{0%,40%{filter:grayscale(1);opacity:.4}60%,90%{filter:none;opacity:1}100%{filter:grayscale(1);opacity:.4}}
+.haloC{fill:var(--gold);opacity:.1;animation:haloC 3s ease-in-out infinite}@keyframes haloC{50%{opacity:.3}}
+.faceTurn{animation:faceTurn 6s ease-in-out infinite}@keyframes faceTurn{0%,25%{transform:scaleX(-1) rotate(-10deg)}40%,90%{transform:none;filter:drop-shadow(0 0 16px rgba(255,236,170,.9))}100%{transform:scaleX(-1)}}
+.still .spreadGold{transform:none}.still .pastIn,.still .busOut{opacity:0!important}.still .futIn{transform:translate(203px,70px)!important;opacity:1!important}
+.still .manWalk{transform:translate(140px,110px)!important}.still .stickDown{transform:translate(160px,134px) rotate(80deg)!important}.still .halo{opacity:.16}.still .bloomOn{opacity:1;filter:none}
 </style>
 </head>
 <body data-chapter="chuong-09">
