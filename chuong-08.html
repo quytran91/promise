@@ -593,6 +593,26 @@ path.s-green{stroke:var(--green)}
 .kneadL{animation:kneadL 1.4s ease-in-out infinite}.kneadR{animation:kneadR 1.4s ease-in-out infinite}
 @keyframes kneadL{50%{transform:translate(10px,-6px) rotate(8deg)}}@keyframes kneadR{50%{transform:translate(-10px,-6px) rotate(-8deg)}}
 .still .vaseNew{opacity:1!important;transform:none!important}.still .lumpOld,.still .clayCover{opacity:0!important}.still .curtain{transform:scaleY(0)}
+
+/* ===== chương 12 ===== */
+.closeEyes{opacity:0;animation:closeEyes 7s ease-in-out infinite}@keyframes closeEyes{0%,26%{opacity:0}32%,44%{opacity:1}50%,100%{opacity:0}}
+.billMove{transform-box:view-box!important;transform-origin:0 0!important;animation:billMove 6s ease-in-out infinite}
+@keyframes billMove{0%,10%{transform:translate(70px,40px);opacity:0}18%{opacity:1}50%,85%{transform:translate(320px,40px);opacity:1}100%{opacity:0;transform:translate(320px,40px)}}
+.painOff{animation:mtA 6s ease-in-out infinite}.painOn{opacity:0;animation:mtB 6s ease-in-out infinite}
+.coal{fill:#2a2730;animation:coal 6s ease-in-out infinite}@keyframes coal{0%,25%{fill:#2a2730}55%,88%{fill:#e8592c;filter:drop-shadow(0 0 14px rgba(243,154,91,.9))}100%{fill:#2a2730}}
+.coalTurn{transform-box:fill-box;transform-origin:center!important;animation:coalTurn 6s ease-in-out infinite}@keyframes coalTurn{15%{transform:rotate(0)}30%,100%{transform:rotate(25deg)}}
+.flameUp{opacity:0;transform-box:fill-box;transform-origin:50% 100%!important;animation:flameUp 6s ease-in-out infinite}
+@keyframes flameUp{0%,50%{opacity:0;transform:scale(.3)}62%,88%{opacity:1;transform:scale(1)}100%{opacity:0}}
+.nudge{animation:nudge 6s ease-in-out infinite}@keyframes nudge{0%,10%{transform:translateX(-10px)}20%,25%{transform:translateX(30px)}35%,100%{transform:translateX(-10px);opacity:.4}}
+.ringGhost{opacity:.3;animation:ringGhost 7s ease-in-out infinite}@keyframes ringGhost{0%,30%{opacity:.35;filter:grayscale(1)}40%,100%{opacity:0}}
+.ringReal{opacity:0;animation:ringReal 7s ease-in-out infinite}@keyframes ringReal{0%,32%{opacity:0;transform:scale(.6)}42%,90%{opacity:1;transform:scale(1);filter:drop-shadow(0 0 10px rgba(230,189,79,.9))}100%{opacity:0}}
+.push{animation:push 1.2s ease-in-out infinite}@keyframes push{50%{transform:translateX(6px)}}
+.wallGone{animation:mtA 6s ease-in-out infinite}.doorOn{opacity:0;animation:mtB 6s ease-in-out infinite}
+.paint2{transform-box:view-box!important;transform-origin:0 0!important;animation:paint2 6s ease-in-out infinite}
+@keyframes paint2{0%{transform:translate(360px,40px)}15%{transform:translate(360px,130px)}25%{transform:translate(380px,60px)}35%,100%{transform:translate(390px,140px);opacity:.4}}
+.paint3{animation:kneadL 1.6s ease-in-out infinite}
+.still .painOn,.still .flameUp,.still .ringReal,.still .doorOn{opacity:1!important;transform:none!important}
+.still .painOff,.still .ringGhost,.still .wallGone,.still .closeEyes,.still .billMove{opacity:0!important}.still .coal{fill:#e8592c}
 </style>
 </head>
 <body data-chapter="chuong-08">
